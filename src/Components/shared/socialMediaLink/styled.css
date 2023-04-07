@@ -1,0 +1,7 @@
+.social-media-links {
+    text-decoration: none;
+    margin: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
