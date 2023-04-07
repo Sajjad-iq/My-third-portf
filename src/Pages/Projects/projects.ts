@@ -22,6 +22,6 @@ export const projects = [
             "",
         ProjectTools: ["React", "Styled Components", "Responsive Design", "Colors Theory Wheel", "Clean Design", "Performance Based Structure",],
         ProjectLiveUrl: "/",
-        ProjectRepoUrl: "https://github.com/Sajjad-iq/Google_Plus"
+        ProjectRepoUrl: "https://github.com/Sajjad-iq/My-third-portf"
     },
 ]

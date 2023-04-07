@@ -2,10 +2,8 @@ import styled from "styled-components";
 import { Colors } from "../../assets/Colors";
 import { device } from "../../assets/breackPoints";
 
-interface Props {
-  ForHomePage: boolean
-}
-export const PrimaryButton = styled.a<Props>`
+
+export const PrimaryButton = styled.a`
  display: flex;
  justify-content: center;
  align-items:center;
@@ -24,20 +22,5 @@ export const PrimaryButton = styled.a<Props>`
         font-size:0.8rem;
  }
  
-${p => p.ForHomePage ?
-    `
-    margin:0;
-    font-size:0.9rem;
-    padding: 17px 65px;
-
-   @media ${device.laptop} {
-       padding: 20px 80px;
-      font-size:1rem;
-}
-
-`
-    :
-    ``
-  }
   
 `

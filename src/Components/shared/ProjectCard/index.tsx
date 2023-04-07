@@ -6,33 +6,41 @@ import Imag from "../../../assets/Icons/img/dopefolio.jpeg"
 import { Image } from '../../common/Image.styled'
 import { ImageWrapper } from '../../../Pages/Projects/styled/ImageWrapper.styled'
 import { ContentWrapper } from '../../../Pages/Projects/styled/ContentWrapper.styled'
+import { MouseEventHandler } from 'react'
+import { ProjectWrapper } from './styled/ProjectWrapper.styled'
 
-export const ProjectCard = () => {
+interface Props {
+    Image: string
+    ProjectName: string
+    Description: string
+    onClick: MouseEventHandler
+}
+
+export const ProjectCard = (props: Props) => {
     return (
-        <SecondaryWrapper style={{ flexDirection: window.innerWidth >= 900 ? "row" : "column", justifyContent: "space-between", width: "100%", padding: "0", marginBottom: "80px" }}>
+        <ProjectWrapper >
 
             <ImageWrapper>
-                <Image src={Imag} alt="project image" />
+                <Image src={props.Image} alt="project image" />
             </ImageWrapper>
 
             <ContentWrapper >
 
-                <H3 >Google Plus</H3>
+                <H3 >{props.ProjectName}</H3>
 
                 <SecondaryDescription style={{ textAlign: window.innerWidth >= 900 ? "start" : "center" }}>
-                    Google Plus is a successful Open-Source project that I created which have been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally
+                    {props.Description}
                 </SecondaryDescription>
 
                 <div className='btn-gradient-1'>
-                    <PrimaryButton ForHomePage={false}>
+                    <PrimaryButton onClick={props.onClick} >
                         CASE STUDY
                     </PrimaryButton>
-
                 </div>
 
             </ContentWrapper>
 
-        </SecondaryWrapper>
+        </ProjectWrapper>
 
     )
 }

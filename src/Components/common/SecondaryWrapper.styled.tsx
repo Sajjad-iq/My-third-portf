@@ -24,7 +24,7 @@ export const SecondaryWrapper = styled.section`
 }
 
  @media ${device.desktop} {
- width:70%;
+ width:75%;
 }
 
 `

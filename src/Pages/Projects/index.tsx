@@ -5,8 +5,13 @@ import { H2 } from '../../Components/common/H2.styled'
 import { HeadDescription } from '../../Components/common/HeadDescription.styled'
 import { UnderTextLine } from '../../Components/common/UnderTextLine.styled'
 import { ProjectCard } from '../../Components/shared/ProjectCard'
+import { projects } from './projects'
+import { getImage } from '../../services/getImage'
 
 export const Projects = () => {
+
+    const getImageHandler = getImage()
+
     return (
         <SecondaryWrapper id='projects'>
 
@@ -15,13 +20,13 @@ export const Projects = () => {
                 <UnderTextLine />
 
                 <HeadDescription >
-                    Here you will find some of the personal projects that I created with each project containing its own case study
+                    Here you will find some from my 27 git repo for personal projects that I created with each project containing its own case study
                 </HeadDescription>
             </Column>
 
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
+            {projects.map((e, i) => {
+                return <ProjectCard key={i} Image={getImageHandler(i)} ProjectName={e.ProjectName} Description={e.PreviewDescription} onClick={() => ""} />
+            })}
         </SecondaryWrapper>
     )
 }
