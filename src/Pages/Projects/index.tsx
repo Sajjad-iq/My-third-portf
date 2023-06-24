@@ -1,4 +1,4 @@
-import React, { Dispatch, SetStateAction } from 'react'
+import { Dispatch, SetStateAction } from 'react'
 import { SecondaryWrapper } from '../../Components/common/SecondaryWrapper.styled'
 import { Column } from '../../Components/common/Column.styled'
 import { H2 } from '../../Components/common/H2.styled'
@@ -31,8 +31,7 @@ export const Projects = (props: Props) => {
                 <UnderTextLine />
 
                 <HeadDescription >
-                    Here you will find some from my 27 git repo for personal projects that I created with each project containing its own case study
-                </HeadDescription>
+                    Here you will find some of the best of my 16 git repo for personal projects that I created and each project contains its case study                </HeadDescription>
             </Column>
 
             {projects.map((e, i) => {
