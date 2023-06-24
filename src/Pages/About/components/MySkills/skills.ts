@@ -21,5 +21,8 @@ export const skills = [
         Skill: "Express"
     }, {
         Skill: "MongoDB"
+    },
+    {
+        Skill: "Secure ane optimized Code"
     }
 ]
