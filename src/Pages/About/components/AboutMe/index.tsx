@@ -17,7 +17,7 @@ export const AboutMe = () => {
             </SecondaryDescription>
 
             <div className='btn-gradient-1'>
-                <PrimaryButton ForHomePage={false}>
+                <PrimaryButton href='#contact' >
                     CONTACT
                 </PrimaryButton>
             </div>

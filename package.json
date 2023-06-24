@@ -9,10 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@types/styled-components": "^5.1.26",
+    "emailjs": "^4.0.1",
     "font-awesome": "^4.7.0",
     "framer-motion": "^10.10.0",
     "react": "^18.2.0",

@@ -2,29 +2,27 @@ import styled from "styled-components";
 import { device } from "../../assets/breackPoints";
 import { Colors } from "../../assets/Colors";
 
-export const H2 = styled.h2`
- font-size:2rem;
- color:${Colors.Primary.Black};
+export const Input = styled.input`
+ font-size:0.9rem;
  margin:10px 0;
- text-align: center;
- word-wrap: break-word; 
  font-weight: 600;
  font-family: 'Open Sans', sans-serif;
- letter-spacing: 0.1em;
+ padding:15px;
+ width:100%;
+ border-radius:5px;
+ border: none;
 
- @media ${device.tablet} {
+&:focus{
+      outline:2px solid ${Colors.Primary.Purple};
+      border:none;
+      }
 
-}
-
+ 
 @media ${device.laptop} {
-margin:20px 0;
-font-size:2.2rem;
-font-weight: 700;
-
+   
 }
 
 @media ${device.laptopL} {
-      font-size:2.2rem;
 }
 
 `

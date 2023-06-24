@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Dispatch, SetStateAction } from 'react'
 import { SecondaryWrapper } from '../../Components/common/SecondaryWrapper.styled'
 import { Column } from '../../Components/common/Column.styled'
 import { H2 } from '../../Components/common/H2.styled'
@@ -7,10 +7,21 @@ import { UnderTextLine } from '../../Components/common/UnderTextLine.styled'
 import { ProjectCard } from '../../Components/shared/ProjectCard'
 import { projects } from './projects'
 import { getImage } from '../../services/getImage'
+import { useNavigate } from 'react-router-dom'
 
-export const Projects = () => {
+interface Props {
+    setIndex: Dispatch<SetStateAction<number>>
+}
+export const Projects = (props: Props) => {
 
     const getImageHandler = getImage()
+    const Navigate = useNavigate()
+
+    const GetProject = (index: number) => {
+        Navigate("/project")
+        props.setIndex(index)
+
+    }
 
     return (
         <SecondaryWrapper id='projects'>
@@ -25,7 +36,7 @@ export const Projects = () => {
             </Column>
 
             {projects.map((e, i) => {
-                return <ProjectCard key={i} Image={getImageHandler(i)} ProjectName={e.ProjectName} Description={e.PreviewDescription} onClick={() => ""} />
+                return <ProjectCard key={i} Image={getImageHandler(i)} ProjectName={e.ProjectName} Description={e.PreviewDescription} onClick={() => GetProject(i)} />
             })}
         </SecondaryWrapper>
     )

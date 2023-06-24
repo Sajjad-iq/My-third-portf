@@ -10,4 +10,5 @@ export const Row = styled.section<Props>`
  justify-content: ${p => p.align};
  align-items: center;
  padding:${p => p.padding};
+ flex-wrap:wrap;
 `

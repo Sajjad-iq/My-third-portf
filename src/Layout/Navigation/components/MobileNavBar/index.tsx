@@ -2,6 +2,7 @@ import { NavButton } from '../../../../Components/shared/NavButton'
 import { Box } from '../../styled/box.styled'
 import { motion } from "framer-motion"
 import './style.css'
+import { useLocation } from 'react-router-dom'
 
 interface Props {
     isActive: boolean
@@ -9,7 +10,8 @@ interface Props {
 }
 
 export const MobileNavBar = (props: Props) => {
-
+    const Location = useLocation()
+    const IsHomePage = Location.pathname === "/" ? true : false
 
     return (
         <motion.div className='mobile-nav'
@@ -17,16 +19,16 @@ export const MobileNavBar = (props: Props) => {
             transition={{ duration: 0.5 }}
         >
             <Box onClick={() => props.setIsActive(false)}>
-                <NavButton To="#home" Name='HOME' />
+                <NavButton To={IsHomePage ? "#home" : "/"} Name='HOME' />
             </Box>
             <Box onClick={() => props.setIsActive(false)}>
-                <NavButton To="#about" Name='ABOUT' />
+                <NavButton To={IsHomePage ? "#about" : "/"} Name='ABOUT' />
             </Box>
             <Box onClick={() => props.setIsActive(false)}>
-                <NavButton To="#projects" Name='PROJECTS' />
+                <NavButton To={IsHomePage ? "#projects" : "/"} Name='PROJECTS' />
             </Box>
             <Box onClick={() => props.setIsActive(false)}>
-                <NavButton To="#contact" Name='CONTACT' />
+                <NavButton To={IsHomePage ? "#contact" : "/"} Name='CONTACT' />
             </Box>
 
         </motion.div>

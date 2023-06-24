@@ -3,7 +3,7 @@ import { PrimaryButton } from '../../common/PrimaryButton.styled'
 import { SecondaryDescription } from '../../common/SecondaryDescription.styled'
 import { SecondaryWrapper } from '../../common/SecondaryWrapper.styled'
 import Imag from "../../../assets/Icons/img/dopefolio.jpeg"
-import { Image } from '../../common/Image.styled'
+import { PreviewImage } from '../../common/PreviewImage.styled'
 import { ImageWrapper } from '../../../Pages/Projects/styled/ImageWrapper.styled'
 import { ContentWrapper } from '../../../Pages/Projects/styled/ContentWrapper.styled'
 import { MouseEventHandler } from 'react'
@@ -21,7 +21,7 @@ export const ProjectCard = (props: Props) => {
         <ProjectWrapper >
 
             <ImageWrapper>
-                <Image src={props.Image} alt="project image" />
+                <PreviewImage src={props.Image} alt="project image" />
             </ImageWrapper>
 
             <ContentWrapper >

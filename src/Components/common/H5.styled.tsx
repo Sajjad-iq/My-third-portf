@@ -1,9 +1,9 @@
 import styled from "styled-components";
 import { device } from "../../assets/breackPoints";
 
-export const H3 = styled.h3`
- font-size:1.2rem;
- margin:10px 0;
+export const H5 = styled.h5`
+ font-size:0.9rem;
+ margin:5px 0;
  text-align: center;
  word-wrap: break-word; 
  font-weight: 700;
@@ -13,12 +13,10 @@ export const H3 = styled.h3`
  -webkit-background-clip: text;
  
 @media ${device.laptop} {
-     margin:20px 0;
-      font-size:1.4rem;
+   
 }
 
 @media ${device.laptopL} {
-      font-size:1.5rem;
 }
 
 `

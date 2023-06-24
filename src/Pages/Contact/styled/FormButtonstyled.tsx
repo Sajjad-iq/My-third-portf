@@ -1,13 +1,14 @@
 import styled from "styled-components";
-import { Colors } from "../../assets/Colors";
-import { device } from "../../assets/breackPoints";
+import { Colors } from "../../../assets/Colors";
+import { device } from "../../../assets/breackPoints";
 
 
-export const PrimaryButton = styled.a`
+
+export const FormButton = styled.button`
  display: flex;
  justify-content: center;
  align-items:center;
- padding:15px 42px;
+ padding:18px 70px;
  color:${Colors.Primary.LightRed} ;
  background:none ;
  font-family: 'Kanit', sans-serif;
@@ -19,7 +20,7 @@ export const PrimaryButton = styled.a`
  user-select: none;
   text-decoration: none;
 
- @media ${device.laptop} {
+  @media ${device.laptop} {
         font-size:0.8rem;
  }
  

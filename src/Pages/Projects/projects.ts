@@ -13,7 +13,7 @@ export const projects = [
         ProjectRepoUrl: "https://github.com/Sajjad-iq/Google_Plus"
     }, {
         ProjectName: "My Portfolio",
-        PreviewDescription: "static site includes my front-end skills and my artistic eye in design and my projects everything except the page structure made by me. ",
+        PreviewDescription: "static site includes my front-end skills and my artistic eye in design and my projects that i created. ",
         DescriptionPartOne:
             "",
         DescriptionPartTow:

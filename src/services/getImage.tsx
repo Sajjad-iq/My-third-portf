@@ -1,6 +1,6 @@
 import React from 'react'
-import googlePlusImg from '../assets/Icons/img/GoogleProject.svg'
-import myPortfolio from '../assets/Icons/img/PortfProject.svg'
+import googlePlusImg from '../assets/Icons/img/GoogleProject.webp'
+import myPortfolio from '../assets/Icons/img/PortfProject.webp'
 export const getImage = () => {
 
     function getImageHandler(index: number) {

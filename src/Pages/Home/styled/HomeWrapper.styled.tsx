@@ -3,6 +3,7 @@ import back from '../../../assets/Icons/svg/confetti-doodles.svg'
 import { device } from "../../../assets/breackPoints";
 export const HomeWrapper = styled.section`
  width:100%;
+  height: 100vh;
  display: flex;
  justify-content: center;
  align-items:center;
@@ -11,15 +12,6 @@ export const HomeWrapper = styled.section`
  padding: 15px;
  background: url(${back});
  position: relative;
-
-
-@media ${device.tablet} {
- height: 1024px;
-}
-
-@media ${device.laptop} {
- height: 100vh;
-}
 
 
 `

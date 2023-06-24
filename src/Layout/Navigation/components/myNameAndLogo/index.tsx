@@ -2,7 +2,7 @@ import React from 'react'
 import { Row } from '../../../../Components/common/Row.styled'
 import { MyName } from '../../styled/myName.styled'
 import { MyLogo } from '../../styled/myLogo.styled'
-import Logo from "../../../../assets/Icons/img/logo.png"
+import Logo from "../../../../assets/Icons/img/logo.webp"
 export const MyNameAndLogo = () => {
     return (
         <Row width='fit-content' padding='0px' align='spae-between'>

@@ -1,30 +1,27 @@
 import styled from "styled-components";
 import { device } from "../../assets/breackPoints";
 
-export const SecondaryWrapper = styled.section`
+export const ProjectsSecondaryWrapper = styled.section`
  width:100%;
  display: flex;
  justify-content: center;
- align-items:center;
+ align-items:flex-start;
  flex-direction: column;
- padding:60px 15px;
-
+ 
  @media ${device.tablet} {
-   padding:60px 35px;
+    width:95%;
 }
 
  @media ${device.laptop} {
-     padding: 60px 15px;
-     width:95%;
+     width:70%;
 }
 
  @media ${device.laptopL} {
-     padding:60px 20px;
-     width:93%;
+     width:60%;
 }
 
  @media ${device.desktop} {
- width:75%;
+ width:50%;
 }
 
 `

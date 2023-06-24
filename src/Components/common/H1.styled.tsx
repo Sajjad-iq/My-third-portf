@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { device } from "../../assets/breackPoints";
 import { Colors } from "../../assets/Colors";
 
-export const H1 = styled.section`
+export const H1 = styled.h1`
  font-size:2.7rem;
  color:${Colors.Primary.Black};
  margin:20px 0;
