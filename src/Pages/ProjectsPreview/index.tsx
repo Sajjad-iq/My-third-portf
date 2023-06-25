@@ -91,3 +91,6 @@ export const ProjectsPreview = (props: Props) => {
         </MainWrapper>
     )
 }
+
+
+export default ProjectsPreview

@@ -17,7 +17,7 @@ export const projects = [
 
     {
         ProjectName: "My Portfolio",
-        PreviewDescription: "static site includes my front-end skills and my artistic eye in design and my projects that i created. ",
+        PreviewDescription: "static site includes my front-end skills and my artistic eye and my projects that i created. ",
         DescriptionPartOne:
             "",
         DescriptionPartTow:
