@@ -12,7 +12,7 @@ export const Home = () => {
       <H1 className='animate-charcter'>HI I'M SAJJAD KADEMM</H1>
 
       <HeadDescription style={{ margin: "20px 0" }}>
-        A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product
+        A Web Developer with a passion for creating Software that is both beautiful, functional and Secure.
       </HeadDescription>
 
       <ScrollDownAnimation />
