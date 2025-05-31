@@ -1,4 +1,4 @@
-export const skills = [
+export const frontendSkills = [
     {
         Skill: "HTML"
     }, {
@@ -6,23 +6,63 @@ export const skills = [
     }, {
         Skill: "JavaScript"
     }, {
-        Skill: "React"
+        Skill: "TypeScript"
     }, {
-        Skill: "SASS"
+        Skill: "React.js"
     }, {
-        Skill: "Styled Components"
+        Skill: "Next.js"
     }, {
-        Skill: "GIT"
+        Skill: "Tailwind CSS"
     }, {
-        Skill: "GitHub"
+        Skill: "Zustand"
+    }, {
+        Skill: "SASS/SCSS"
+    }, {
+        Skill: "Jest"
+    }, {
+        Skill: "Vite"
     }, {
         Skill: "Responsive Design"
     }, {
-        Skill: "Express"
+        Skill: "UI/UX Principles"
+    }
+]
+
+export const backendSkills = [
+    {
+        Skill: "Java"
     }, {
-        Skill: "MongoDB"
+        Skill: "Spring Boot"
+    }, {
+        Skill: "Node.js"
+    }, {
+        Skill: "Express.js "
     },
     {
-        Skill: "Secure ane optimized Code"
-    }
+        Skill: "Nest.js"
+    }, {
+        Skill: "PostgreSQL"
+    }, {
+        Skill: "MongoDB"
+    }, {
+        Skill: "RESTful APIs"
+    }, {
+        Skill: "Docker"
+    }, {
+        Skill: "Git"
+    }, {
+        Skill: "JWT Auth"
+    }, {
+        Skill: "OAuth"
+    }, {
+        Skill: "Firebase"
+    }, {
+        Skill: "Prisma"
+    }, {
+        Skill: "Grafana"
+    }, {
+        Skill: "Prometheus"
+    }, {
+        Skill: "Redis"
+    },
 ]

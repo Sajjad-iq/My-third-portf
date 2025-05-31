@@ -7,7 +7,7 @@ export const InnerWrapper = styled.section`
  justify-content: flex-start;
  align-items:flex-start;
  flex-direction: column;
- padding:20px 0px;
+ padding:20px;
  
 
  @media ${device.tablet} {

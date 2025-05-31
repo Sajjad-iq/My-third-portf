@@ -9,11 +9,15 @@ export const AboutMe = () => {
             <H3>Get to know me!</H3>
 
             <SecondaryDescription style={{ textAlign: "start" }}>
-                I'm a <strong>Frontend Web Developer</strong> building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the <strong>Projects</strong> section.
+                I'm a professional, detail-oriented <strong>Full Stack Developer</strong> currently working at <strong>TORCH CORP</strong>. I specialize in building robust web applications using <strong>Java Spring Boot</strong> for backend and <strong>React.js</strong> for frontend development. I'm particularly proud of my role in developing and maintaining the TORCH Glare UI components library, which serves as the foundation for all company products.
             </SecondaryDescription>
 
             <SecondaryDescription style={{ textAlign: "start" }}>
-                I'm open to <strong>Job</strong> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <strong>contact</strong> me.
+                With expertise in both frontend technologies (React.js, TypeScript, Tailwind CSS) and backend development (Java Spring Boot, Node.js, PostgreSQL), I bring a comprehensive approach to web development. I'm passionate about mentoring junior developers and contributing to improving development workflows and coding standards.
+            </SecondaryDescription>
+
+            <SecondaryDescription style={{ textAlign: "start" }}>
+                I'm always open to exciting <strong>opportunities</strong> where I can contribute my expertise, learn new technologies, and grow professionally. If you have a challenging project or opportunity that matches my skills, feel free to <strong>contact</strong> me.
             </SecondaryDescription>
 
             <div className='btn-gradient-1'>
