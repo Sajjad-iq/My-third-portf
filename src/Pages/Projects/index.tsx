@@ -31,7 +31,8 @@ export const Projects = (props: Props) => {
                 <UnderTextLine />
 
                 <HeadDescription >
-                    Here you will find some of the best of my 16 git repo for personal projects that I created and each project contains its case study                </HeadDescription>
+                    Here you will find a list of projects that I have worked on.
+                </HeadDescription>
             </Column>
 
             {projects.map((e, i) => {
