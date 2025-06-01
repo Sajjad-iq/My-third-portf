@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { ProjectsSecondaryWrapper } from '../../../../Components/common/ProjectsSecondaryWrapper.styled'
 import { Column } from '../../../../Components/common/Column.styled'
 import { H5 } from '../../../../Components/common/H5.styled'
