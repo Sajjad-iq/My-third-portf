@@ -1,4 +1,3 @@
-import React from 'react'
 import erp from '../assets/Icons/img/erp.webp'
 import glare from '../assets/Icons/img/glare.webp'
 export const getImage = () => {
