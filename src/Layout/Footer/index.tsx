@@ -17,7 +17,7 @@ export const Footer = () => {
                     <Column width={window.innerWidth <= 480 ? "100%" : "50%"} padding='10px 0' align='flex-start'>
                         <H3>SAJJAD KADEMM</H3>
                         <Description>
-                            A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product
+                            A Web Developer with a passion for creating Software that is both beautiful, functional and Secure.
                         </Description>
                     </Column>
 
@@ -28,7 +28,7 @@ export const Footer = () => {
                 </Row>
 
                 <Column width='100%' padding='25px' align='center' style={{ borderTop: `1px solid ${Colors.Primary.Lightgrey}` }}>
-                    <p style={{ fontSize: "0.6rem" }}>© Copyright 2023. Made by  <strong>Sajjad Kademm</strong></p>
+                    <p style={{ fontSize: "0.6rem" }}>© Copyright 2025. Made by  <strong>Sajjad Kademm</strong></p>
                 </Column>
             </SecondaryWrapper>
         </MainWrapper>
