@@ -32,17 +32,17 @@ export const Form = () => {
 
                 <Column width='100%' padding='0' align='flex-start'>
                     <H5>Name</H5>
-                    <Input name='Name' placeholder='Enter Your Name' />
+                    <Input name='name' placeholder='Enter Your Name' />
                 </Column>
 
                 <Column width='100%' padding='0' align='flex-start'>
                     <H5>Email</H5>
-                    <Input name='Email' placeholder='Enter Your Email' />
+                    <Input name='email' placeholder='Enter Your Email' />
                 </Column>
 
                 <Column width='100%' padding='0' align='flex-start'>
                     <H5>Message</H5>
-                    <TextArea name='Message' onChange={(e) => setMessageInput(e.target.value)} ref={ref} placeholder='Enter Your Message' />
+                    <TextArea name='message' onChange={(e) => setMessageInput(e.target.value)} ref={ref} placeholder='Enter Your Message' />
                 </Column>
 
                 <div className='btn-gradient-1' >
