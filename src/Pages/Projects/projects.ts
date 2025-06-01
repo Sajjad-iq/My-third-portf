@@ -48,17 +48,16 @@ export const projects = [
         ProjectRepoUrl: "https://github.com/TORCH-Corp/TORCH-Glare"
     },
     {
-        ProjectName: "Google Plus",
-        PreviewDescription: "google plus is a real-world fully functional full-stack social media web app where you can do everything you can imagine from a social media application.",
+        ProjectName: "Anime Library",
+        PreviewDescription: "Anime Library is a web app that helps people find their favorite anime with brief and many details by sorting lists and recommendations and infinite scrolling results of clickable cards.",
         DescriptionPartOne:
-            "security and performance are the main goals with so many features and a huge code base able to scale up on the front-end and back-end sides.",
-
+            "A user-friendly web application designed to help anime enthusiasts discover and explore their favorite shows through an intuitive interface and comprehensive search functionality.",
         DescriptionPartTow:
-            "this is clone of my favorite social media app. Also, my passion for web development gives me the ability to work with  this complete  full-stack app and almost 25 custom pages inside of it.",
+            "The application features infinite scrolling for seamless browsing, detailed anime information cards, and smart sorting options to enhance the user experience.",
         DescriptionPartThree:
-            "security and performance are the main goals with so many features and a huge code base able to scale up on the front-end and back-end sides.",
-        ProjectTools: ["React", "Styled Components", "Express", "MongoDB", "Sessions auth", "Responsive Design", "Validate user input", "Performance and optimized and security Based", 'service workers', "OSWAB security", "Masonry Layout", "Font awesome", "Sharp", "bcrypt", "and so on.."],
-        ProjectLiveUrl: "https://googleplus.onrender.com/",
-        ProjectRepoUrl: "https://github.com/Sajjad-iq/google_plus_client_side"
+            "Implemented advanced features like recommendations system and efficient data handling to ensure smooth performance with large datasets of anime information.",
+        ProjectTools: ["React", "TypeScript", "Styled Components", "REST API Integration", "Infinite Scrolling", "Responsive Design", "State Management", "Search Optimization", "Component Library", "Performance Optimization"],
+        ProjectLiveUrl: "https://sajjad-iq.github.io/anime-library/",
+        ProjectRepoUrl: "https://github.com/Sajjad-iq/anime-library/tree/master"
     },
 ]
